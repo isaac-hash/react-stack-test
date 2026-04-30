@@ -26,7 +26,7 @@ function App() {
     if (typeof apiPath === 'string' && apiPath.length > 0) {
       return apiPath.replace(/\/$/, '')
     }
-    return (import.meta.env.VITE_API_URL || 'http://77.68.50.228:3013').replace(/\/$/, '')
+    return (import.meta.env.VITE_API_URL || 'http://77.68.50.228:3015').replace(/\/$/, '')
   }, [])
 
   const [tasks, setTasks] = useState<Task[]>([])
