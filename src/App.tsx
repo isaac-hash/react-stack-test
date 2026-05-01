@@ -28,7 +28,8 @@ function App() {
     }
     // return (import.meta.env.VITE_API_URL || 'http://77.68.50.228:3015').replace(/\/$/, '')
     // return ('http://77.68.50.228:3015').replace(/\/$/, '')
-    return ('http://77.68.54.204:3013/').replace(/\/$/, '')
+    // return ('http://77.68.54.204:3013/').replace(/\/$/, '')
+    return ('http://77.68.50.227:3013').replace(/\/$/, '')
   }, [])
 
   const [tasks, setTasks] = useState<Task[]>([])
